@@ -10,7 +10,7 @@ func main(){
 	// 0x22 0x33 .....0x45 0x44 0xff
 	
 	encodedFile := "encoded_hulk.jpg" // Encoded File Name
-	ResultFile := "dns-go.jpg"  // Desired Result File Name
+	ResultFile := "captain-america.jpg"  // Desired Result File Name
 	
 	err := steg.DecodeByFileNames(encodedFile, ResultFile)
 	if err != nil{
